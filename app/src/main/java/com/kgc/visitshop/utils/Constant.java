@@ -6,8 +6,8 @@ public class Constant {
     public static final int HttpFail = 7001;//失败
     public static final int Scroll = 2;//通知图片轮播
 
-    //public static final String BaseUrl = "http://10.0.2.2:8080";//模拟器根接口
-    public static final String BaseUrl = "http://192.168.9.232:8080";//根接口
+    public static final String BaseUrl = "http://api.palyapp.com:8081";//模拟器根接口
+    // public static final String BaseUrl = "http://192.168.9.232:8080";//根接口
 
     public static final String Login = BaseUrl + "/visitshop/login";//登录get
     public static final String FeedBack = BaseUrl + "/visitshop/feedback";//意见反馈post

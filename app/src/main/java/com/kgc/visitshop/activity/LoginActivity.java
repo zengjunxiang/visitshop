@@ -2,6 +2,7 @@ package com.kgc.visitshop.activity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
@@ -28,7 +29,9 @@ import com.kgc.visitshop.net.OkHttpManager;
 import com.kgc.visitshop.utils.Constant;
 import com.kgc.visitshop.utils.SharePreUtil;
 
+import org.litepal.LitePalDB;
 import org.litepal.crud.DataSupport;
+import org.litepal.tablemanager.Connector;
 
 import java.io.IOException;
 import java.util.List;
@@ -52,6 +55,8 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         mContext = this;
+
+        SQLiteDatabase db = Connector.getDatabase();
 
         if (checkLogin()) {
             startActivity(new Intent(LoginActivity.this, MainActivity.class));
