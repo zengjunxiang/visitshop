@@ -9,6 +9,14 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app1" />
+            <option value="$PROJECT_DIR$/app2" />
+            <option value="$PROJECT_DIR$/app3" />
+            <option value="$PROJECT_DIR$/app4" />
+            <option value="$PROJECT_DIR$/app5" />
+            <option value="$PROJECT_DIR$/app6" />
+            <option value="$PROJECT_DIR$/app7" />
+            <option value="$PROJECT_DIR$/photoview" />
             <option value="$PROJECT_DIR$/settingitemlibrary" />
             <option value="$PROJECT_DIR$/xrecyclerview" />
           </set>
